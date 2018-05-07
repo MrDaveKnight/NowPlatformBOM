@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="suite" table="x_snc_platform_bom_capability" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>suite</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITSM</label>
+            <language>en</language>
+            <name>x_snc_platform_bom_capability</name>
+            <sequence>0</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31e4302bdb719300d88e594e5e96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+            <value>itsm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>suite</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITOM</label>
+            <language>en</language>
+            <name>x_snc_platform_bom_capability</name>
+            <sequence>1</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5e4302bdb719300d88e594e5e96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+            <value>itom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>suite</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITBM</label>
+            <language>en</language>
+            <name>x_snc_platform_bom_capability</name>
+            <sequence>2</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9e4302bdb719300d88e594e5e96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+            <value>itbm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>suite</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security Operations</label>
+            <language>en</language>
+            <name>x_snc_platform_bom_capability</name>
+            <sequence>3</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fde4302bdb719300d88e594e5e961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+            <value>sec_ops</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>suite</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Management</label>
+            <language>en</language>
+            <name>x_snc_platform_bom_capability</name>
+            <sequence>4</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1e4302bdb719300d88e594e5e961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+            <value>service_ management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>suite</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Platform</label>
+            <language>en</language>
+            <name>x_snc_platform_bom_capability</name>
+            <sequence>5</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5e4302bdb719300d88e594e5e961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+            <value>platform</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>suite</element>
+            <name>x_snc_platform_bom_capability</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-05-06 23:04:44</sys_created_on>
+            <sys_id>b1e4302bdb719300d88e594e5e96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>suite</sys_name>
+            <sys_package display_value="Platform BOM" source="x_snc_platform_bom">1ca3489bdb751f004d3ef3c61d96194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Platform BOM">1ca3489bdb751f004d3ef3c61d96194a</sys_scope>
+            <sys_update_name>sys_choice_x_snc_platform_bom_capability_suite</sys_update_name>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-05-06 23:04:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

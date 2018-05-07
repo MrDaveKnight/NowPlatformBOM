@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2018-05-06 00:59:16</sys_created_on>
+        <sys_id>6d85c8dbdb751f004d3ef3c61d961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_platform_bom_capability.x_snc_platform_bom.capability_user</sys_name>
+        <sys_package display_value="Platform BOM" source="x_snc_platform_bom">1ca3489bdb751f004d3ef3c61d96194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Platform BOM">1ca3489bdb751f004d3ef3c61d96194a</sys_scope>
+        <sys_security_acl display_value="x_snc_platform_bom_capability">ad85c8dbdb751f004d3ef3c61d96194d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6d85c8dbdb751f004d3ef3c61d961950</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2018-05-06 00:59:16</sys_updated_on>
+        <sys_user_role display_value="x_snc_platform_bom.user" name="x_snc_platform_bom.user">5185889bdb751f004d3ef3c61d961987</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Capability" max_length="40" name="x_snc_platform_bom_capability" type="collection">
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Plugins" max_length="4000" name="plugins" reference="x_snc_platform_bom_plugins" type="glide_list"/>
+        <element choice="3" default="platform" label="Suite" mandatory="true" max_length="40" name="suite" type="choice">
+            <choice>
+                <element label="ITSM" sequence="0" value="itsm"/>
+                <element label="ITOM" sequence="1" value="itom"/>
+                <element label="ITBM" sequence="2" value="itbm"/>
+                <element label="Security Operations" sequence="3" value="sec_ops"/>
+                <element label="Service Management" sequence="4" value="service_ management"/>
+                <element label="Platform" sequence="5" value="platform"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>

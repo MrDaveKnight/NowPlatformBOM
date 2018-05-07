@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Plugins" max_length="40" name="x_snc_platform_bom_plugins" type="collection">
+        <element label="Maintenance" max_length="40" name="maintenance" type="boolean"/>
+        <element display="true" label="Name" max_length="1000" name="name" type="string"/>
+    </element>
+</database>
